@@ -1,0 +1,14 @@
+Bienvenido al instructivo para la instalacion correcta de la base de datos
+Dentro de la carpeta Datos estaran todos los archivos vinculados a cada tabla del esquema Universidadoffsec los cuales estan en formato .csv
+Cada nombre de archivo .csv corresponde al nombre de la tabla vinculada.
+
+1.- Abrir Esquema.sql y ejecutar el archivo dentro de mysql para crear el esquema.
+2.- Abrir Tablas.sql y ejecutar el archivo para iniciar la generacion de las tablas junto a su estructura.
+3.- Importar registros desde la carpeta ./DATOS el cual debe ser importado correspondiendo el nombre de la tabla que se desee popular con el archivo sql. 
+    Ej: Estudiante.csv corresponde a los registros de la tabla Estudiante.
+4.- Abrir Vistas.sql y ejecutar el archivo para la creacion de las vistas
+5.- Abrir Funciones.sql y ejecutar el archivo para la creacion de funciones
+6.- Abrir 'StoreProcedures.sql' y ejecutar el archivo para la creacion los procedimientos almacenados
+7.- Abrir Triggers.sql y ejecutar el archivo para la creacion de los triggers
+8.- Abrir DCL.sql y ejecutar el archivo para la creacion de los usuarios y otorgar sus permisos
+9.- Abrir Backup.sql y ejecutar el archivo 
